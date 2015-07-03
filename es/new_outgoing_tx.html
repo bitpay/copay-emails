@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
   <meta charset="UTF-8">
-  <title>New payment proposal</title>
+  <title>Payment sent</title>
   <link href='http://fonts.googleapis.com/css?family=Roboto+Condensed:400italic,400,300,700' rel='stylesheet' type='text/css'>
 
   <style type="text/css">
@@ -132,10 +132,11 @@
     </a>
     <div style=" background: #FFFFFF; padding: 1.5rem; margin-top:1rem; border: 1px solid #E1E8ED; border-radius: 4px;  text-align: left;" >
       <h3 style="margin: 0 0 1.5rem; padding-bottom: 1rem; border-bottom: 1px solid #ECF0F3; font-family: 'Roboto condensed', Helvetica; font-weight: 400;">
-        <img src="https://copay.io/images/email/new-proposal.png" alt="New Proposal Pending" style="display: inline-block; vertical-align: middle; margin-right: 0.5rem;" width="35">
-        <span>New payment proposal</span>
+        <img src="https://copay.io/images/email/payment-sent.png" alt="Payment Sent" style="display: inline-block; vertical-align: middle; margin-right: 0.5rem;" width="35">
+        <span>Pago enviado</span>
       </h3>
-      <p style="color: #7A8C9E; font-size: 15px">A new payment proposal has been created in your wallet <strong>{{walletName}}.</strong> by <strong> {{copayerName}}. </strong> </p>
+      <p style="color: #7A8C9E; font-size: 15px">Un pago de <strong> {{amount}} </strong> ha sido enviado de su monedero <strong>{{walletName}}.</strong> </p>
+      <a style="font-size: 0.8rem;" href="{{urlForTx}}"> See it on the Blockchain </a>
     </div>
     <p style="color: #B4C0CB; font-size: 0.7rem; margin-top: 1.5rem; line-height: 150%">
       <span>3405 Piedmont Rd NE, Atlanta - BitPay </span> <br>
