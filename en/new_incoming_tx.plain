@@ -1,0 +1,6 @@
+{{subjectPrefix}}New payment received
+A payment of {{amount}} has been received into your wallet {{walletName}}.
+
+--
+3405 Piedmont Rd NE, Atlanta - BitPay
+https://copay.io
