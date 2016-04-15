@@ -1,5 +1,5 @@
-{{subjectPrefix}}送金のお知らせ
-{{amount}}のビットコインがウォレット「{{walletName}}」から送金されました。
+{{subjectPrefix}}Payment sent
+A Payment of {{amount}} has been sent from your wallet.
 
 --
 3405 Piedmont Rd NE, Atlanta - BitPay
